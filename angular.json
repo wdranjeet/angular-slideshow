@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-drupal"
+    }
+  },
+  "defaultProject": "ng-drupal",
+  "cli": {
+    "analytics": "3f626697-6a49-461c-9a24-7b68fc3db7dc"
+  }
 }
