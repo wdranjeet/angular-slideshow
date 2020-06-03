@@ -4,7 +4,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation
 
-Clone the code and run npm install
+1) Clone the code and run npm install
+2)Create Drupal Resource on your Drupal Project
+  Exmple:
+    //Drupal Resource URL
+    //http://www.example.com/api/?_format=json
+    // Json Format
+    // {"id": "1",
+    //   "title": "Test",
+    //     "thumbnailUrl": "URL"
+    // }
+
+3) Make Sure you have Enabled CORS configuration in Your Drupal Installation
+4) Change Resource URL in app.component.ts 
+ http://www.example.com/api/slideshow?_format=json TO [Your drupal Resource]
 
 
 ## Development server
