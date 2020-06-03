@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installation
 
 1) Clone the code and run npm install
-2)Create Drupal Resource on your Drupal Project
+
+2) Create Drupal Resource on your Drupal Project
   Exmple:
     //Drupal Resource URL
     //http://www.example.com/api/?_format=json
